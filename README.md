@@ -75,12 +75,6 @@ npm run lint       # ESLint
 npm run build      # build de produção em dist/
 ```
 
-## Publicar no GitHub Pages
-
-1. Cria um repositório no GitHub e faz push para a branch `main`.
-2. Em **Settings → Pages**, escolhe **Source: GitHub Actions**.
-3. O workflow em `.github/workflows/deploy.yml` corre lint, testes e build, e publica automaticamente.
-4. Se o primeiro deploy falhar por o Pages ainda não estar ativo, volta a correr o workflow no separador **Actions**.
 
 ## Ideias para evoluir
 
